@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Run the C file stored in $CFILE through the preprocessor and save the result to a file named 'c'
+gcc -E "$CFILE" -o c
